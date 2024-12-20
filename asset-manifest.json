@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Clone-web/static/css/main.7ba03a1f.css",
+    "main.js": "/Clone-web/static/js/main.0a522e19.js",
+    "static/media/services2.png": "/Clone-web/static/media/services2.66d7e2544bd8e6e3d8d2.png",
+    "static/media/aboutimg.webp": "/Clone-web/static/media/aboutimg.6c85d912613e2efce827.webp",
+    "static/media/service1.jpg": "/Clone-web/static/media/service1.c7f4688fbf9421007787.jpg",
+    "index.html": "/Clone-web/index.html",
+    "main.7ba03a1f.css.map": "/Clone-web/static/css/main.7ba03a1f.css.map",
+    "main.0a522e19.js.map": "/Clone-web/static/js/main.0a522e19.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ba03a1f.css",
+    "static/js/main.0a522e19.js"
+  ]
+}
