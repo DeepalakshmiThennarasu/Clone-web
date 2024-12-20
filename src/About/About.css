@@ -1,0 +1,54 @@
+.about-container
+{
+    display: flex;
+    flex-direction: row;
+    margin: 40px 20px 0 20px;
+    gap: 30px;
+}
+.about-img img
+{
+width: 500px;  
+height: 400px;  
+border-radius: 15px;
+    
+}
+.about-content
+{
+    padding: 5px;
+    line-height: 1.5;
+
+}
+.about-content p 
+{
+    text-align: justify;
+    color: black;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.about-content ul
+{
+    text-align: justify;
+    color: black;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.about-content h1{
+    color: rgb(10, 10, 10);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-weight: 500;
+}
+.about-content button{
+    background-color: green;
+    margin: 20px;
+    float: left;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+.about-content button:hover{
+    transform: translateY(10px);
+}

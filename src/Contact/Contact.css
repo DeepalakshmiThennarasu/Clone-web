@@ -1,0 +1,104 @@
+/* .contact-main
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px;  
+    line-height: 1.8;
+}
+.contact-content
+{
+    background-color: rgb(141, 238, 222);
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.contact-content:hover{
+
+}
+.contact-content h3{
+    font-weight: 800;
+    font-size: 20px;
+}
+.contact-content  h6
+{
+    font-weight: 800;
+    font-size: 18px;
+}
+.contact-content p{
+    font-weight: 800;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+} */
+.contact-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px;
+    line-height: 1.2;
+}
+
+.contact-content {
+    background-color: rgb(141, 238, 222);
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-content:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 0 15px rgba(141, 238, 222, 0.8);
+    background-color: rgb(128, 223, 208); 
+}
+
+.contact-content h3 {
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #006666;
+    transition: color 0.3s ease;
+}
+
+/* Change title color on hover */
+.contact-content:hover h3 {
+    color: #004d4d;
+}
+
+/* Card subtitle */
+.contact-content h6 {
+    font-weight: 800;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #003333;
+}
+
+/* Card text */
+.contact-content p {
+    font-weight: 800;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #002626;
+    margin-top: 5px;
+}
+
+/* Icon styles */
+.contact-content svg {
+    font-size: 36px;
+    color: #004d4d;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Icon hover effect */
+.contact-content:hover svg {
+    transform: scale(1.2); /* Slightly enlarge icon */
+    color: #002626; /* Change icon color */
+}

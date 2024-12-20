@@ -1,0 +1,47 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background:linear-gradient(violet,pink);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.nav-content
+{
+    background-color: black;
+    padding: 30px;
+}
+.nav-content ul
+{
+    display: flex;
+    gap: 30px;
+    margin-left:890px;
+    list-style: none;
+}
+.nav-content li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-content  li button
+{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.but-home{
+    display: flex;
+    margin: 20px 0 0 10px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}

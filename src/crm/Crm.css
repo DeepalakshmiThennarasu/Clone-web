@@ -1,0 +1,94 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background:linear-gradient(violet,pink);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.nav-content
+{
+    background-color: black;
+    padding: 30px;
+}
+.nav-content ul
+{
+    display: flex;
+    gap: 30px;
+    margin-left:890px;
+    list-style: none;
+}
+.nav-content li a{
+    text-decoration: none;
+    color: white;
+}
+.dash-home
+{
+    margin: 50px 0 0 30px;
+    background-color:black ;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+.dash-home a
+{
+ list-style: none;
+ text-decoration: none;
+ margin-top: 50px;
+ color: white;
+
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+    background-color: black;
+    color: white;
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgba(245, 245, 245, 1);
+}
+
+tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+th {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+td {
+    color: #333;
+}

@@ -1,0 +1,40 @@
+.service-main-content
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px;
+    gap: 20px;
+}
+.service-img img
+{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+.service-content
+{
+    line-height: 2.1;
+}
+.service-content h1{
+    font-size: 40px;
+    color: black;
+    font-weight: 800;
+}
+.service-content h3{
+    font-size: 30px;
+    color: black;
+    font-weight: 600;
+}
+.service-content p{
+    color: black;
+    text-align: justify;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.service-content ul li{
+    color: black;
+    text-align: justify;
+    font-size: 20px;
+    font-family: sans-serif;
+}
